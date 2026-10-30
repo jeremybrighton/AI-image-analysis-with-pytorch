@@ -71,7 +71,7 @@ transform_normalized = transforms.Compose(
         transforms.ToTensor(),
         # Normalize the tensors (copy the mean and std from previous lesson!)
         transforms.Normalize(
-            mean=[0.4242, 0.4896, 0.3053], std=[0.2210, 0.2224, 0.2088])
+           mean=[0.4326, 0.4953, 0.3120], std=[0.2178, 0.2214, 0.2091])
          
             ]
 )
